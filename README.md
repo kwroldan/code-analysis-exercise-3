@@ -7,6 +7,9 @@ Your task is to figure out how this code works.
 * Keep coming up with new inputs until you're confident until you're confident that you know how the function works.
 * Write a summary of what the function does.
 
+** SUMMARY **
+The function takes the input of *animal* , makes all the characters in the string lowercase, and checks if it is "alligator" . If it is "alligator" the function returns *small* -- if it's anything else, the function returns *wide* . 
+
 ```js
 function (animal){
   const normalizedName = animal.toLowerCase()
@@ -19,16 +22,16 @@ function (animal){
 }
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input     | Output    |
+| --------- | --------- |
+| ALLIGATOR | small     | 
+| Crocodile | wide      | 
+| Alligator | small     | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program insults alligators by calling them small.</td>
   </tr>
 </table>
 
